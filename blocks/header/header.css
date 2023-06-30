@@ -4,5 +4,6 @@
     align-items: center; 
     width: 1184px;
     height: 52px;
-    margin: 28px 48px 0 48px;
+    margin: 0 auto;
+    margin-top: 28px;
 }

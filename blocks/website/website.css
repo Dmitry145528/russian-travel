@@ -1,0 +1,6 @@
+.website {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-left: 40px;
+}

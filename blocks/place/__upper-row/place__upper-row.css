@@ -1,0 +1,6 @@
+.place__upper-row {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 48px;
+    max-width: 984px;
+}

@@ -1,0 +1,8 @@
+.places__items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* line-height: 0; */
+}
+
+.places__items:nth-last-child()
