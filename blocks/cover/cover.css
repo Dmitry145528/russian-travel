@@ -5,12 +5,11 @@
     justify-content: center;
     align-items: center;
     row-gap: 32px;
-    max-width: 1184px;
     min-height: 740px;
     margin: 0 auto;
     margin-bottom: 92px;
     background-image: url('../../images/cover-trains.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
