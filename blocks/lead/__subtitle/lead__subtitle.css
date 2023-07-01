@@ -6,5 +6,29 @@
     font-family: Inter;
     line-height: 36px;
     max-width: 640px;
-    margin: 0 320px 64px 320px;
+    margin-bottom: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+         font-size: 4.5vw;
+         line-height: 5vw;
+         max-width: 70vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__subtitle {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
 }

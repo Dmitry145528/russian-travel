@@ -3,8 +3,7 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 284px));
+    grid-template-rows: repeat(3, minmax(0, 213px));
     gap: 16px;
-    line-height: 0;
 }

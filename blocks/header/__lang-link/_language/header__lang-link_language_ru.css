@@ -1,7 +1,16 @@
-.header__lang-link_language_en {
-    text-decoration: none;
+.header__lang-link_language_ru {
     color: #FFF;
     font-size: 24px;
     font-family: Inter;
     line-height: 28px;
 }
+
+@media screen and (max-width: 320px) {
+    .header__lang-link_language_ru {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+  }
+
