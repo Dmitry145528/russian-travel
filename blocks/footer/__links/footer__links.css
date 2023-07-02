@@ -4,5 +4,13 @@
     display: flex;
     list-style-type: none;
     column-gap: 18px;
-    line-height: 0
+    line-height: 0;
+}
+
+@media screen and (max-width: 650px){
+    .footer__links {
+        max-width: 465px;
+        flex-direction: column;
+        row-gap: 32px;
+    }
 }

@@ -1,4 +1,9 @@
 .place__lower-row {
     display: flex;
-    max-width: 984px;
+}
+
+@media screen and (max-width: 320px) {
+    .place__lower-row {
+        display: block;
+    }
 }
