@@ -4,13 +4,13 @@
     row-gap: 26px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .place__paragraph-pos {
         row-gap: 25px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
     .place__paragraph-pos {
         row-gap: 25px;
         margin-top: 32px;
