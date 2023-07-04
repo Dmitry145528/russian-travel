@@ -4,7 +4,6 @@
     list-style-type: none;
     color: #FFF;
     font-size: 12px;
-    font-family: Inter;
-    font-weight: 700;
-    line-height: 18px;
+    font-family: 'Inter-Bold', sans-serif;
+    line-height: 1.5;
 }

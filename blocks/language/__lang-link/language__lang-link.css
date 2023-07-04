@@ -1,0 +1,18 @@
+.language__lang-link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inter-Regular', sans-serif;
+    line-height: 1.16;
+}
+
+.language__lang-link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .language__lang-link {
+        font-size: 18px;
+        line-height: 1.1;
+    }
+  }

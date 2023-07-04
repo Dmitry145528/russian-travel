@@ -4,9 +4,7 @@
     color: #FFF;
     text-align: center;
     font-size: 18px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Inter-Regular', sans-serif;
     line-height: 1.2;
     z-index: 1;
 }

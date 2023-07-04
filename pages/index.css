@@ -3,9 +3,9 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
   @import url('../blocks/header/__header-logo/header__header-logo.css');
-  @import url('../blocks/header/__lang-link/header__lang-link.css');
-  @import url('../blocks/header/__lang-link/_language/header__lang-link_language_ru.css');
-  @import url('../blocks/header/__lang-link/_language/header__lang-link_language_en.css');
+@import url('../blocks/language/language.css');
+  @import url('../blocks/language/__lang-link/language__lang-link.css');
+  @import url('../blocks/language/__lang-link/_active/language__lang-link_active.css');
 @import url('../blocks/content/content.css');
 @import url('../blocks/lead/lead.css');
   @import url('../blocks/lead/__title/lead__title.css');

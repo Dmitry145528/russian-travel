@@ -3,9 +3,7 @@
     max-width: 484px;
     color: #FFF;
     font-size: 18px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Inter-Regular', sans-serif;
     line-height: 163%;
     margin-left: 40px;
 }
@@ -19,7 +17,6 @@
 
 @media screen and (max-width: 950px) {
     .place__paragraph {
-        max-width: 352px;
         margin-left: 28px;
         font-size: 16px;
     }

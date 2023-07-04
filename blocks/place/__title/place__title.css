@@ -4,10 +4,8 @@
     max-width: 460px;
     color: #FFF;
     font-size: 72px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 76px;
+    font-family: 'Inter-Black', sans-serif;
+    line-height: 1.05;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,7 +20,14 @@
         min-width: 340px;
         max-width: 340px;
         font-size: 42px;
-        line-height: 46px;
+        line-height: 1.09;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        padding-right: 10px;
+        box-sizing: border-box;
     }
 }
 
@@ -31,7 +36,8 @@
         min-width: 0;
         max-width: 288px;
         font-size: 32px;
-        line-height: 35px;
+        line-height: 1.09;
         margin: 0 16px 32px 16px;
+        padding-right: 0;
     }
 }

@@ -3,8 +3,8 @@
     text-transform: uppercase;
     color: #FFF;
     font-size: 10px;
-    font-family: Inter;
-    line-height: 14px;
+    font-family: 'Inter-Regular', sans-serif;
+    line-height: 1.4;
     letter-spacing: 1.5px;
     max-width: 160px;
 }
@@ -18,7 +18,5 @@
 @media screen and (max-width: 320px) {
     .lead__caption {
         margin-left: 16px;
-        font-style: normal;
-        font-weight: 400;
     }
 }
