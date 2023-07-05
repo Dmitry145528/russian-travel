@@ -3,7 +3,8 @@
     text-transform: uppercase;
     color: #FFF;
     font-size: 10px;
-    font-family: 'Inter-Regular', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     line-height: 1.4;
     letter-spacing: 1.5px;
     max-width: 160px;

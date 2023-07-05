@@ -1,4 +1,4 @@
-.website {
+.place__website {
     display: flex;
     flex-direction: column;
     row-gap: 12px;
@@ -6,19 +6,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .website {
+    .place__website {
         margin-left: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .website {
+    .place__website {
         margin-left: 28px;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .website {
+    .place__website {
         margin: 0 16px 32px 16px;
     }
 }

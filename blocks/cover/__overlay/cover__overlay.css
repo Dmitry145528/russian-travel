@@ -1,0 +1,16 @@
+.cover__overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 32px;
+    text-decoration: none;
+    flex-grow: 1;
+    z-index: 1;
+}
+
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+        row-gap: 16px;
+    }
+}

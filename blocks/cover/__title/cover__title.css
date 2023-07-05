@@ -4,26 +4,13 @@
     color: #FFF;
     text-align: center;
     font-size: 72px;
-    font-family: 'Inter-Black', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
     line-height: 1.05;
-    z-index: 1;
 }
 
-@media screen and (max-width: 530px) {
-    .cover__title {
-        font-size: 13.5vw;
-        line-height: 14vw;
-    }
-}
 
-@media screen and (max-width: 430px) {
-    .cover__title {
-        font-size: 13vw;
-        line-height: 14vw;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__title {
         max-width: 255px;
         font-size: 32px;
